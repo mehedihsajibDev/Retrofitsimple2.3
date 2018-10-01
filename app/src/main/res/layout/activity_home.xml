@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"/>
+
+    <EditText
+        android:id="@+id/editphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phonnumber"/>
+    <EditText
+        android:id="@+id/edituser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"/>
+    <EditText
+        android:id="@+id/editaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="adddress"/>
+    <EditText
+        android:id="@+id/editapassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go"/>
+    <Button
+        android:id="@+id/loadid"
+        android:text="load"
+        android:textStyle="bold"
+        android:onClick="load"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/texdetailsid"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
